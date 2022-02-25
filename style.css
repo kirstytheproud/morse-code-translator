@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.input {
+  margin: 30px;
+}
+
+.input-box {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.output {
+  margin: 30px;
+}
+
+.output-box {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.translate-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.translate-btns button {
+  padding: 10px;
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */
