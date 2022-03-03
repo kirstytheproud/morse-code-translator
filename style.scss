@@ -18,11 +18,22 @@ h1 {
 }
 
 input {
+    display: flex;
     margin: 30px;
     width: 300px;
     height: 200px;
+    font-size: 18px;
 }
 
+.input-box--morse {
+    font-weight: bold;
+
+}
+
+// .input-box--english
+// {
+//     font-size:24px;
+// }
 
 h2{
     text-align: center;

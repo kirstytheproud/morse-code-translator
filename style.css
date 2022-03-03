@@ -19,9 +19,17 @@ h1 {
 }
 
 input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 30px;
   width: 300px;
   height: 200px;
+  font-size: 18px;
+}
+
+.input-box--morse {
+  font-weight: bold;
 }
 
 h2 {
