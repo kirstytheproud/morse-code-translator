@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #5b87ca;
+  background: -webkit-gradient(linear, left bottom, left top, from(#4842c1), to(#00f6d5));
+  background: linear-gradient(0deg, #4842c1 0%, #00f6d5 100%);
 }
 
 @media screen and (min-width: 300px) {
@@ -18,7 +19,7 @@ body {
     text-align: center;
     font-family: 'Arvo', serif;
     font-weight: bold;
-    color: white;
+    color: black;
   }
   .container {
     display: -ms-grid;
@@ -160,7 +161,7 @@ body {
     text-align: center;
     font-family: 'Arvo', serif;
     font-weight: bold;
-    color: white;
+    color: black;
   }
   .container {
     display: -ms-grid;
@@ -276,7 +277,7 @@ body {
     text-align: center;
     font-family: 'Arvo', serif;
     font-weight: bold;
-    color: white;
+    color: black;
   }
   .container {
     display: -ms-grid;
