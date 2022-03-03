@@ -154,7 +154,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   h1 {
     margin: 30px;
     text-align: center;
@@ -191,6 +191,126 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  button {
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px 30px;
+    width: 300px;
+    height: 200px;
+    font-size: 18px;
+    font-family: 'Arvo', serif;
+  }
+  .input-box--morse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: bold;
+  }
+  .input-box--morse::-webkit-input-placeholder {
+    font-weight: normal;
+  }
+  .input-box--morse:-ms-input-placeholder {
+    font-weight: normal;
+  }
+  .input-box--morse::-ms-input-placeholder {
+    font-weight: normal;
+  }
+  .input-box--morse::placeholder {
+    font-weight: normal;
+  }
+  h2 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+  }
+  .morse-code__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 30px;
+  }
+  .morse-code__img h3 {
+    margin-bottom: 20px;
+    font-family: 'Arvo', serif;
+  }
+  .morse-code__img img {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    margin: 30px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    color: white;
+  }
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .english-translator-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .morse-translator-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
